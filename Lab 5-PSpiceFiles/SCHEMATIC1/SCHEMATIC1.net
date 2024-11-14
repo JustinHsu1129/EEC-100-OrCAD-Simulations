@@ -1,0 +1,11 @@
+* source LAB 5
+V_V1         VIN 0 DC 0Vdc AC 1Vac 0
+V_V2         VIN2 0 DC 0Vdc AC 1Vac 0
+V_V3         VIN3 0 DC 0Vdc AC 1Vac 0
+R_R1         VIN VOUT  1k TC=0,0 
+R_R2         0 VOUT2  1k TC=0,0 
+R_R3         0 VOUT3  1k TC=0,0 
+C_C1         0 VOUT  100n  TC=0,0 
+C_C2         VOUT2 VIN2  100n  TC=0,0 
+C_C3         N00309 VIN3  100n  TC=0,0 
+L_L1         N00309 VOUT3  1mH  

@@ -1,0 +1,7 @@
+* source LAB 7 FOURIER ANALYSIS
+R_R1         VIN N00175  5.6k TC=0,0 
+R_R2         N00175 VOUT  5.6k TC=0,0 
+R_R3         0 N00207  5.6k TC=0,0 
+C_C1         VIN N00207  0.1u  TC=0,0 
+E_U1         VOUT 0 VALUE {LIMIT(V(N00207,N00175)*1E6,-15V,+15V)}
+V_V1         VIN 0 DC 0Vdc AC 1Vac 0

@@ -1,0 +1,98 @@
+
+**** 11/07/24 15:37:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ c:\users\justin\documents\school\2024-2025\fall quarter\eec 100\orcad lab simulations\lab 6\lab 6 a
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Justin\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 1 1000000
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB 6 ACTIVE BANDPASS FILTER
+E_U1         N00546 0 VALUE {LIMIT(V(0,N00514)*1E6,-15V,+15V)}
+E_U2         N00596 0 VALUE {LIMIT(V(0,N00579)*1E6,-15V,+15V)}
+E_U3         VOUT 0 VALUE {LIMIT(V(0,N00620)*1E6,-15V,+15V)}
+V_V1         VIN 0 DC 0Vdc AC 0.3V 
+R_R2         VIN N00514  3315.73 TC=0,0 
+R_R3         N00546 N00575  994.72 TC=0,0 
+R_R4         N00596 N00620  1k TC=0,0 
+R_R5         N00514 N00546  3315.73 TC=0,0 
+R_R6         N00579 N00596  994.72 TC=0,0 
+R_R7         N00620 VOUT  10000 TC=0,0 
+C_C2         N00514 N00546  2.4n  TC=0,0 
+C_C3         N00575 N00579  800n  TC=0,0 
+
+**** RESUMING sim1.cir ****
+.END
+
+INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each frequency. ABM devices with non-linear operations will be evaluated only at bias point.
+
+**** 11/07/24 15:37:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ c:\users\justin\documents\school\2024-2025\fall quarter\eec 100\orcad lab simulations\lab 6\lab 6 a
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    0.0000  ( VOUT)    0.0000  (N00514)    0.0000 (N00546)    0.0000     
+
+(N00575)    0.0000 (N00579)    0.0000 (N00596)    0.0000 (N00620)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/07/24 15:37:40 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ c:\users\justin\documents\school\2024-2025\fall quarter\eec 100\orcad lab simulations\lab 6\lab 6 a
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .44
+
