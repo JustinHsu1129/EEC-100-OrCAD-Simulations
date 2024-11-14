@@ -1,0 +1,11 @@
+* source LAB 3 SUMMING AMPLIFIER
+E_U1         VO 0 VALUE {LIMIT(V(0,N00276)*1E6,-15V,+15V)}
+R_R1         N00269 N00276  21962.62 TC=0,0 
+R_R2         N00335 N00276  47k TC=0,0 
+R_R3         N00342 N00276  100k TC=0,0 
+R_47k         N00276 VO  1k TC=0,0 
+V_V1         N00269 0  
++PULSE -1 0 0 5m 5m 1f 10m
+V_V4         N00342 0 5v
+V_V5         N00335 0  
++PULSE 0 1 0.5m 1f 1f 1m 2m

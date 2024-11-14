@@ -1,0 +1,7 @@
+* source LAB 4-AC ANALYSIS
+R_R2         N00177 N00137  1k TC=0,0 
+R_R3         N00153 N00137  240 TC=0,0 
+C_C1         0 N00137  0.33uF  TC=0,0 
+L_L1         0 N00153  100mH  
+V_V1         N00177 0  AC 1
++SIN 0 1 100 0 0 0

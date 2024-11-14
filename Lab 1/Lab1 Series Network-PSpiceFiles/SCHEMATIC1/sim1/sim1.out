@@ -1,0 +1,87 @@
+
+**** 10/03/24 01:29:09 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\Lab1 Series Network-PSpic
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\jhsu2\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB1 SERIES NETWORK
+R_R1         N00165 N00129  1k TC=0,0 
+R_R2         N00129 N00142  10 TC=0,0 
+R_R5         0 N00129  1k TC=0,0 
+R_R3         N00151 N00142  10 TC=0,0 
+R_R4         N00151 0  34 TC=0,0 
+V_V1         N00165 0 5V
+
+**** RESUMING sim1.cir ****
+.END
+
+**** 10/03/24 01:29:09 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\Lab1 Series Network-PSpic
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00129)     .2437 (N00142)     .1986 (N00151)     .1534 (N00165)    5.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.756E-03
+
+    TOTAL POWER DISSIPATION   2.38E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/03/24 01:29:09 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\Lab1 Series Network-PSpic
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

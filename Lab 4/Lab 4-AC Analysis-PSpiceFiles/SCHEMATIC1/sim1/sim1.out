@@ -1,0 +1,88 @@
+
+**** 10/24/24 09:06:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\Lab 4\lab 4-ac analysis-p
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\jhsu2\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.01 0 1u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB 4-AC ANALYSIS
+R_R2         N00177 N00137  1k TC=0,0 
+R_R3         N00153 N00137  240 TC=0,0 
+C_C1         0 N00137  0.33uF  TC=0,0 
+L_L1         0 N00153  100mH  
+V_V1         N00177 0  AC 1
++SIN 0 1 100 0 0 0
+
+**** RESUMING sim1.cir ****
+.END
+
+**** 10/24/24 09:06:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\Lab 4\lab 4-ac analysis-p
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00137)    0.0000 (N00153)    0.0000 (N00177)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/24/24 09:06:26 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\Lab 4\lab 4-ac analysis-p
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .16
+
