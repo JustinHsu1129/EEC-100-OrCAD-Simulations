@@ -1,7 +1,7 @@
-
-**** 11/14/24 02:18:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Justin\Documents\School\2024-2025\Fall Quarter\EEC 100\OrCAD Lab Simulations\Lab 6\lab 7 f
+**** 11/14/24 09:33:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\EEC-100-OrCAD-Simulations
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,7 +18,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-* From [PSPICE NETLIST] section of C:\Users\Justin\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Users\jhsu2\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
 .lib "nomd.lib" 
 
 *Analysis directives: 
@@ -43,9 +43,9 @@ V_V1         VIN 0 DC 0Vdc AC 1Vac 0
 
 INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each frequency. ABM devices with non-linear operations will be evaluated only at bias point.
 
-**** 11/14/24 02:18:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 11/14/24 09:33:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Justin\Documents\School\2024-2025\Fall Quarter\EEC 100\OrCAD Lab Simulations\Lab 6\lab 7 f
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\EEC-100-OrCAD-Simulations
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -74,9 +74,9 @@ INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each f
 
           JOB CONCLUDED
 
-**** 11/14/24 02:18:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 11/14/24 09:33:38 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Justin\Documents\School\2024-2025\Fall Quarter\EEC 100\OrCAD Lab Simulations\Lab 6\lab 7 f
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\EEC-100-OrCAD-Simulations
 
 
  ****     JOB STATISTICS SUMMARY
@@ -86,5 +86,5 @@ INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each f
 
 
 
-  Total job time (using Solver 1)   =         .02
+  Total job time (using Solver 1)   =         .92
 

@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Justin\Documents\School\2024-2025\Fall Quarter\EEC 100\OrCAD Lab Simulations\Lab 6\lab 7 fourier analysis-PSpiceFiles\SCHEMATIC1\sim1.sim ] 
+** Profile: "SCHEMATIC1-sim1"  [ C:\Users\jhsu2\OneDrive\Documents\UC Davis\2024-2025\Fall Quarter\EEC 100\EEC-100-OrCAD-Simulations\Lab 6\lab 7 fourier analysis-pspicefiles\schematic1\sim1.sim ] 
 
 ** Creating circuit file "sim1.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -6,7 +6,7 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-* From [PSPICE NETLIST] section of C:\Users\Justin\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+* From [PSPICE NETLIST] section of C:\Users\jhsu2\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
 .lib "nomd.lib" 
 
 *Analysis directives: 
