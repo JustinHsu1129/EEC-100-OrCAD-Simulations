@@ -1,5 +1,5 @@
 
-**** 11/20/24 21:48:46 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 11/20/24 22:38:28 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Justin\Documents\School\2024-2025\Fall Quarter\EEC 100\OrCAD Lab Simulations\EEC-100-OrCAD
 
@@ -44,13 +44,13 @@ L_L1         0 N00345  33m
 .subckt SCHEMATIC1_S1 1 2 3 4  
 S_S1         3 4 1 2 _S1
 RS_S1         1 2 1G
-.MODEL         _S1 VSWITCH Roff=1e6 Ron=1.0 Voff=0v Von=5v
+.MODEL         _S1 VSWITCH Roff=1e6 Ron=270 Voff=0v Von=5v
 .ends SCHEMATIC1_S1
 
 **** RESUMING sim1.cir ****
 .END
 
-**** 11/20/24 21:48:46 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 11/20/24 22:38:28 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Justin\Documents\School\2024-2025\Fall Quarter\EEC 100\OrCAD Lab Simulations\EEC-100-OrCAD
 
@@ -64,13 +64,13 @@ RS_S1         1 2 1G
 
 
                X_S1._S1        
-         RON    1            
+         RON  270            
         ROFF    1.000000E+06 
          VON    5            
         VOFF    0            
 
 
-**** 11/20/24 21:48:46 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 11/20/24 22:38:28 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Justin\Documents\School\2024-2025\Fall Quarter\EEC 100\OrCAD Lab Simulations\EEC-100-OrCAD
 
@@ -104,7 +104,7 @@ RS_S1         1 2 1G
 
           JOB CONCLUDED
 
-**** 11/20/24 21:48:46 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 11/20/24 22:38:28 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Justin\Documents\School\2024-2025\Fall Quarter\EEC 100\OrCAD Lab Simulations\EEC-100-OrCAD
 

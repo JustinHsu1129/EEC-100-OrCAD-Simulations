@@ -272,25 +272,25 @@
             ("pspice_path"	"RS_S1")
             ("level"	"0")
             ("model_params"
-                ("BiasValue Power"
-                    ("value"	"24.97uW")
-                    ("pspice_param"	"BiasValue Power")
-                )
-                ("VOFF"
-                    ("value"	"0v")
-                    ("pspice_param"	"VOFF")
+                ("RON"
+                    ("value"	"270")
+                    ("pspice_param"	"RON")
                 )
                 ("VON"
                     ("value"	"5v")
                     ("pspice_param"	"VON")
                 )
+                ("VOFF"
+                    ("value"	"0v")
+                    ("pspice_param"	"VOFF")
+                )
+                ("BiasValue Power"
+                    ("value"	"24.97uW")
+                    ("pspice_param"	"BiasValue Power")
+                )
                 ("ROFF"
                     ("value"	"1e6")
                     ("pspice_param"	"ROFF")
-                )
-                ("RON"
-                    ("value"	"1.0")
-                    ("pspice_param"	"RON")
                 )
             )
         )

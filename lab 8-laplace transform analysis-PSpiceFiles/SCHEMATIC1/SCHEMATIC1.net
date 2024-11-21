@@ -12,5 +12,5 @@ L_L1         0 N00345  33m
 .subckt SCHEMATIC1_S1 1 2 3 4  
 S_S1         3 4 1 2 _S1
 RS_S1         1 2 1G
-.MODEL         _S1 VSWITCH Roff=1e6 Ron=1.0 Voff=0v Von=5v
+.MODEL         _S1 VSWITCH Roff=1e6 Ron=270 Voff=0v Von=5v
 .ends SCHEMATIC1_S1
