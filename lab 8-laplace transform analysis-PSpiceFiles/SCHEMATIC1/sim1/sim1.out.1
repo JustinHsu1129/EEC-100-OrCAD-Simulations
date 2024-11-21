@@ -1,0 +1,66 @@
+
+**** 11/20/24 21:46:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Justin\Documents\School\2024-2025\Fall Quarter\EEC 100\OrCAD Lab Simulations\EEC-100-OrCAD
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Justin\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 6ms 0 1u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB 8-LAPLACE TRANSFORM ANALYSIS
+V_V1         N00255 N00279 5v
+V_V2         N00267 N00279  
++PULSE 0 5 0 1f 1f 3m 6m
+X_S1    N00267 N00279 N00255 N00325 SCHEMATIC1_S1 
+R_R1         N00325 N00332  470 TC=0,0 
+R_R2         N00332 N00336  100 TC=0,0 
+R_R3         N00345 N00336  90 TC=0,0 
+C_C1         N00279 N00332  1u  TC=0,0 
+L_L1         N00279 N00345  33m  
+
+.subckt SCHEMATIC1_S1 1 2 3 4  
+S_S1         3 4 1 2 _S1
+RS_S1         1 2 1G
+.MODEL         _S1 VSWITCH Roff=1e6 Ron=1.0 Voff=0v Von=5v
+.ends SCHEMATIC1_S1
+
+**** RESUMING sim1.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00255 is floating
+
+ERROR(ORPSIM-15142): Node N00279 is floating
+
+ERROR(ORPSIM-15142): Node N00267 is floating
+
+ERROR(ORPSIM-15142): Node N00325 is floating
+
+ERROR(ORPSIM-15142): Node N00332 is floating
+
+ERROR(ORPSIM-15142): Node N00336 is floating
+
+ERROR(ORPSIM-15142): Node N00345 is floating
+
